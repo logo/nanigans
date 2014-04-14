@@ -1,0 +1,21 @@
+
+/**
+ * Nanigans logo.
+ */
+
+.logo[data-logo="Nanigans"] {
+  width: 0;
+}
+
+.logo[data-logo="Nanigans"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Nanigans"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Nanigans"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
